@@ -3,12 +3,12 @@ namespace Vidly.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class PopulateMovies : DbMigration
+    public partial class RenameMovies : DbMigration
     {
         public override void Up()
         {
-
-            Sql("INSERT INTO Movies (Name,IsSubscribedToNewsletter,Genre,NumberInStock)  VALUES('Hellboy',1,'Action',50)");
+            Sql("Update Movies set Name='Hellboy' where Id=2 ");
+            Sql("Update Movies set Name='Wall-E' where Id=3 ");
         }
         
         public override void Down()

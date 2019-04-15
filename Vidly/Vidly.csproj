@@ -247,13 +247,21 @@
     <Compile Include="Migrations\201904110842501_UpdateMovieClass.Designer.cs">
       <DependentUpon>201904110842501_UpdateMovieClass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201904110845372_PopulateMovies.cs" />
-    <Compile Include="Migrations\201904110845372_PopulateMovies.Designer.cs">
-      <DependentUpon>201904110845372_PopulateMovies.cs</DependentUpon>
+    <Compile Include="Migrations\201904122028434_PopulateMovies.cs" />
+    <Compile Include="Migrations\201904122028434_PopulateMovies.Designer.cs">
+      <DependentUpon>201904122028434_PopulateMovies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201904111039444_CleanMovie.cs" />
-    <Compile Include="Migrations\201904111039444_CleanMovie.Designer.cs">
-      <DependentUpon>201904111039444_CleanMovie.cs</DependentUpon>
+    <Compile Include="Migrations\201904122033245_PopulateGenres.cs" />
+    <Compile Include="Migrations\201904122033245_PopulateGenres.Designer.cs">
+      <DependentUpon>201904122033245_PopulateGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904122035508_PopulateMovies1.cs" />
+    <Compile Include="Migrations\201904122035508_PopulateMovies1.Designer.cs">
+      <DependentUpon>201904122035508_PopulateMovies1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904122045131_RenameMovies.cs" />
+    <Compile Include="Migrations\201904122045131_RenameMovies.Designer.cs">
+      <DependentUpon>201904122045131_RenameMovies.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -382,11 +390,17 @@
     <EmbeddedResource Include="Migrations\201904110842501_UpdateMovieClass.resx">
       <DependentUpon>201904110842501_UpdateMovieClass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904110845372_PopulateMovies.resx">
-      <DependentUpon>201904110845372_PopulateMovies.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904122028434_PopulateMovies.resx">
+      <DependentUpon>201904122028434_PopulateMovies.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904111039444_CleanMovie.resx">
-      <DependentUpon>201904111039444_CleanMovie.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904122033245_PopulateGenres.resx">
+      <DependentUpon>201904122033245_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904122035508_PopulateMovies1.resx">
+      <DependentUpon>201904122035508_PopulateMovies1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904122045131_RenameMovies.resx">
+      <DependentUpon>201904122045131_RenameMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
