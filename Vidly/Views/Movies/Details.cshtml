@@ -1,8 +1,31 @@
-﻿@m
+﻿@model Vidly.Models.Movie
 @{
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Name</h2>
+<h2>Movie Detail Page</h2>
+
+<ul>
+    @if (Model.Name.Any())
+    {
+       <li><b>Movie Name:</b> @Model.Name</li>
+    }
+    @if (Model.ReleaseDate.HasValue)
+    {
+        <li><b>Release Date: </b>@Model.ReleaseDate</li>
+
+    }
+    @if (Model.DateAdded.HasValue)
+    {
+        <li><b>Date Added: </b>@Model.DateAdded</li>
+
+    }
+
+    <li><b>Number In Stock: </b>@Model.NumberInStock</li>
+
+    <li><b>Director: </b></li>
+    
+
+</ul>
 
